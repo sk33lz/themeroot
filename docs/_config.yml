@@ -1,6 +1,6 @@
 name: ThemeRoot
 description: Open Source Themes, Free CSS Templates, Free Web Fonts, and Guides
-url: https://twister-dev.surge.sh
+url: https://themeroot.netlify.com
 plugins: [jekyll-paginate]
 baseurl: #place folder name if site is served in subfolder
 permalink: /:categories/:title/
