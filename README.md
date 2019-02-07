@@ -1,2 +1,3 @@
-# themeroot
-An open source repository of open source themes, css templates, web fonts, tools, and guides.
+# ThemeRoot
+
+ThemeRoot is an open source repository of open source themes, templates, web fonts, theming resources, and guides.

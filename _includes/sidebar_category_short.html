@@ -1,0 +1,18 @@
+<div class="sidebar">
+    <div class="widget">
+        <h3 class="title">Categories</h3>
+        <ul class="category_list">
+            {% assign category_list = site.mycategories %}
+            {% if category_list.first[0] == null %}
+                {% for mycategory in category_list %}
+                    <li><a href="{{ site.category_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ mycategory | slugify }}">{{ mycategory }}</a></li>
+                {% endfor %}
+            {% else %}
+                {% for mycategory in category_list %}
+                    <li><a href="{{ site.category_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ mycategory[0] | slugify }}">{{ mycategory[0] }}</a></li>
+                {% endfor %}
+            {% endif %}
+            {% assign category_list = nil %}
+        </ul>
+    </div>
+</div>

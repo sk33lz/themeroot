@@ -1,0 +1,13 @@
+{%- if page.hero -%}
+    <div class="hero">
+        <p>Providing you with the best Drupal themes, best CSS templates, and best web fonts.</p>
+    </div>
+{%- elsif page.url == "/drupal-themes/" -%}
+    <div class="hero">
+        <p>Providing you with the best free Drupal themes for Drupal 6, Drupal 7, and Drupal 8.</p>
+    </div>
+{% elsif page.url == "/css-templates/" %}
+    <div class="hero">
+        <p>Providing you with the best free CSS templates for many types of sites, as well as responsive CSS templates.</p>
+    </div>
+{% endif%}

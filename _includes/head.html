@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+		{%- if page.url == "/drupal-themes/" -%}
+		<title>Download Free Drupal Themes & Premium Drupal Themes | ThemeRoot</title>
+		{% elsif page.url == "/css-templates/" %}
+		<title>Download Free CSS Templates | ThemeRoot</title>
+		{% elsif page.url == "/submit/" %}
+		<title>Submit a Drupal Theme or CSS Template | ThemeRoot</title>
+		{% else %}
+		<title>{{ site.name }}{% if page.title %} - {{ page.title }} {% endif%}</title>
+		{% endif%}
+		{%- if page.description -%}<meta name="description" content="{{ page.description }}">{% endif %}
+		<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+		<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="{{ site.baseurl | replace: '//', '/' }}/css/main.css">
+		<link rel="stylesheet" id="switch_style" href="{{ site.baseurl | replace: '//', '/' }}/css/grid.css">
+		{%- if site.asciidoctor-enabled == true -%}
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+		{% endif %}
+		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl | prepend: site.url | replace: '//', '/' }}/feed.xml">
+		{%- if site.google_site_verification -%}<meta name="google-site-verification" content="{{ site.google_site_verification}}">{%- endif -%}
+		{%- if site.bing_webmastertools_id -%}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" >{%- endif -%}
+		{%- if site.google_author -%}<link rel="author" href="{{ site.google_author }}">{%- endif -%}
+		{%- if site.alexa_verify_id -%}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
+		{%- if page.noindex == true or layout.noindex == true -%}<meta name="robots" content="noindex">{% endif %}
+		<!-- Facebook Open Graph -->
+		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:description" content="{{ page.description }}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="{{ site.name }}">
+		{%- if page.image.title -%}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.title }}">{%- endif -%}
+		{%- if site.socialmedia.facebook -%}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{%- endif -%}
+		{%- if site.socialmedia.twitter -%}
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="{{ site.socialmedia.twitter }}">
+		<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
+		<meta name="twitter:title" content="{{ page.title }}">
+		<meta name="twitter:description" content="{{ page.description }}">
+		{%- if page.image.title -%}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{%- endif -%}
+		{% endif %}
+		<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+		{%- include _favicon.html -%}

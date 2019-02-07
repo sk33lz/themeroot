@@ -1,0 +1,38 @@
+{% if page.project_homepage %}
+    <div class="project_homepage">
+        <strong>Homepage:</strong> <a href="{{ page.project_homepage}}">{{ page.title}}</a>
+    </div>
+{% endif %}
+{% if page.project_license_text %}
+    <div class="project_license">
+        <strong>License:</strong> <a href="{{ page.project_license_link}}">{{ page.project_license_text}}</a>
+    </div>
+{% endif %}
+{% if page.project_created %}
+    <div class="project_created">
+        <strong>Created:</strong> {{ page.project_created}}
+    </div>
+{% endif %}
+{% if page.project_author_name %}
+    <div class="project_author">
+        <strong>Author:</strong> <a href="{{ page.project_author_link}}">{{ page.project_author_name}}</a>
+    </div>
+{% endif %}
+
+{% if page.project_version_support %}
+	{% if page.project_type == "drupal_theme" %}
+    <div class="version_support">
+        <strong>Drupal Version(s) Supported:</strong> {{ page.project_version_support}}
+    </div>
+    {% else %}
+    <div class="version_support">
+        <strong>Version(s) Supported:</strong> {{ page.project_version_support}}
+    </div>
+    {% endif %}
+{% endif %}
+
+{% if page.project_demo_link %}
+    <div class="demo_link">
+        <strong>View Demo:</strong> <a href="{{ page.project_demo_link}}">{{ page.title}} Demo</a>
+    </div>
+{% endif %}
