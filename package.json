@@ -1,11 +1,11 @@
 {
-  "name": "themeroot",
+  "name": "twister",
   "description": "A multimedia jekyll theme",
-  "author": "sk33lz <info@sk33lz.com>",
+  "author": "Digitalmind <info@digitalmind.ch>",
   "version": "1.0.0",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/sk33lz/themeroot"
+      "type": "git",
+      "url": "https://github.com/DigitalMindCH/twister"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -19,8 +19,5 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^0.14.2",
     "grunt-shell": "^1.1.1"
-  },
-  "dependencies": {
-    "node-sass": "^4.11.0"
   }
 }
