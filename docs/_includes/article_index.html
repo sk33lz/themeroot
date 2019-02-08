@@ -40,7 +40,7 @@
             {% if post.featimg %}
                 {% if post.type == "project" %}
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
-                        <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/thumbnails{{ post.featimg }}" alt="{{ post.title }} thumbnail" data-echo="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/{{ post.featimg }}">
+                        <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/thumbnails/{{ post.featimg }}" alt="{{ post.title }} thumbnail" data-echo="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/{{ post.featimg }}">
                     </a>
                 {% else %}
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
