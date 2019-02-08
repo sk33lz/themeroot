@@ -4,7 +4,7 @@ description: Glassical is a GPL Wordpress theme of the same name that was releas
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/glassical-full.preview.jpg
+featimg: glassical-full.preview.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, business]
 category: [Drupal Themes]
 project_homepage: https://www.drupal.org/project/glassical

@@ -5,7 +5,7 @@ description: A nice colorful HTML & CSS template. Has nice bright colors and a c
 type: project
 project_type: css_template
 layout: post_full
-featimg: screenshots/arrangement.jpg
+featimg: arrangement.jpg
 tag: [css template, cc-by-3.0, 2 column, blog]
 category: [CSS Templates]
 project_homepage: https://templated.co/arrangement

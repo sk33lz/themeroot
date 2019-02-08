@@ -42,7 +42,7 @@
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                         <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/thumbnails{{ post.featimg }}" alt="{{ post.title }} thumbnail" data-echo="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/screenshots/{{ post.featimg }}">
                     </a>
-                    {% else %}
+                {% else %}
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                         <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/thumbnails/{{ post.featimg }}" alt="{{ post.title }} thumbnail" data-echo="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}">
                     </a>

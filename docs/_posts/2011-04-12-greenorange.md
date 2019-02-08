@@ -5,7 +5,7 @@ description: Greenorange features a large header graphic and bright colors with 
 type: project
 project_type: css_template
 layout: post_full
-featimg: screenshots/greenorange.jpg
+featimg: greenorange.jpg
 tag: [css template, cc-by-3.0, 2 column, blog, nature]
 category: [CSS Templates]
 project_homepage: https://templated.co/greenorange

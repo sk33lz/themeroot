@@ -5,7 +5,7 @@ description: Streetclock features a nice clean and sharp dark 2-colum layout wit
 type: project
 project_type: css_template
 layout: post_full
-featimg: screenshots/streetclock.jpg
+featimg: streetclock.jpg
 tag: [css template, cc-by-3.0, 2 column, blog, dark]
 category: [CSS Templates]
 project_homepage: https://templated.co/streetclock

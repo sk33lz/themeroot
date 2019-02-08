@@ -4,7 +4,7 @@ description: The Drupal Urban View theme is a port of a Wordpress theme by the s
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/urban_view-theme.jpg
+featimg: urban_view-theme.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, blog, dark]
 category: [Drupal Themes]
 project_homepage: https://www.drupal.org/project/urban_view

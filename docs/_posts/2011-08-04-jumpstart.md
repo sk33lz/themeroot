@@ -5,7 +5,7 @@ description: Jumpstart features 3 styles to choose from with a homepage slider a
 type: project
 project_type: css_template
 layout: post_full
-featimg: screenshots/jumpstart.jpg
+featimg: jumpstart.jpg
 tag: [css template, freebsd, 2 column, 960gs, business]
 category: [CSS Templates]
 project_homepage: http://www.codeplay.co.za/2011/08/04/jumpstart-free-businessportfolio-web-template/

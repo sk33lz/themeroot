@@ -4,7 +4,7 @@ description: Wedding Bells is a GPL theme that was ported from Wordpress to Drup
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/wedding_bells-preview.jpg
+featimg: wedding_bells-preview.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, light, wedding]
 category: [Drupal Themes]
 project_homepage: https://www.drupal.org/project/wedding_bells

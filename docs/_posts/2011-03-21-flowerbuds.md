@@ -5,7 +5,7 @@ description: Flowerbuds features a dark 2-colum layout with crisp top navigation
 type: project
 project_type: css_template
 layout: post_full
-featimg: screenshots/flowerbuds.jpg
+featimg: flowerbuds.jpg
 tag: [css template, cc-by-3.0, 2 column, blog, nature, dark]
 category: [CSS Templates]
 project_homepage: https://templated.co/flowerbuds

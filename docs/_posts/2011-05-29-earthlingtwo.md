@@ -4,7 +4,7 @@ description: EarthlingTwo is the 2nd HTML/CSS template we have converted to a Dr
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/earthlingtwo-preview.jpg
+featimg: earthlingtwo-preview.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, blog, nature]
 category: [Drupal Themes]
 project_homepage: https://github.com/sk33lz/earthlingtwo/
