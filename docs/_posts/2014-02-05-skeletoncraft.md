@@ -4,8 +4,7 @@ description: SkeletonCraft is a Responsive Drupal 7 theme that I have been using
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/skeletoncraft.jpg
-yt-video-id: e0RFirBWQsE
+featimg: skeletoncraft.jpg
 tag: [drupal 7, GPL, responsive, gaming]
 category: [Drupal Themes]
 project_homepage: https://drupal.org/project/skeletoncraft
