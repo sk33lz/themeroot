@@ -1,7 +1,9 @@
 name: ThemeRoot
 description: Open Source Themes, Free CSS Templates, Free Web Fonts, and Guides
 url: https://themeroot.netlify.com
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-srcset
 baseurl: #place folder name if site is served in subfolder
 permalink: /:categories/:title/
 paginate: 8

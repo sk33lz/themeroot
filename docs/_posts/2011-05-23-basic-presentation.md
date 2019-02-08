@@ -4,7 +4,7 @@ description: Basic Presentation is a port of a free HTML/CSS website template av
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/basic-presentation.png
+featimg: screenshots/basic-presentation.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, business]
 category: [Drupal Themes]
 project_homepage: https://www.drupal.org/project/basic_presentation

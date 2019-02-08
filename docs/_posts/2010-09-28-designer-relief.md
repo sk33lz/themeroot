@@ -4,7 +4,7 @@ description: Designer Relief is a Wordpress theme that was originally ported to 
 type: project
 project_type: drupal_theme
 layout: post_full
-featimg: screenshots/designer_relief.png
+featimg: screenshots/designer_relief.jpg
 tag: [drupal 7, GPL, fixed width, 2 column, dark]
 category: [Drupal Themes]
 project_homepage: https://www.drupal.org/project/designer_relief
