@@ -1,6 +1,6 @@
 name: ThemeRoot
 description: Open Source Themes, Free CSS Templates, Free Web Fonts, and Guides
-url: https://themeroot.netlify.com
+url: https://themeroot.com
 plugins:
   - jekyll-paginate
   - jekyll-srcset
